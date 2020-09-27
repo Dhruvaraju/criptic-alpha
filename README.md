@@ -32,3 +32,25 @@ const hash = encrypt('This is awesome');
 ```
 const text = decrypt(hash);
 ```
+
+### encryptMono
+
+- Accepts a text as input
+- Returns a string which contains hex value separated by '-'
+
+**usage**
+
+```
+const hash = encryptMono('This is awesome');
+```
+
+### decryptMono
+
+- Accepts the hex values that returned from encryptMono function.
+- Returns the original text as output.
+
+**usage**
+
+```
+const text = decryptMono(hash);
+```
