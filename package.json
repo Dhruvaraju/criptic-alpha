@@ -1,12 +1,17 @@
 {
   "name": "criptic-alpha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To encrypt and decrypt text",
   "main": "criptic.js",
   "repository": "https://github.com/Dhruvaraju/criptic-alpha.git",
   "author": "Dhruva Raju <49dhruva@gmail.com>",
   "license": "MIT",
-  "keywords": ["demo","criptic","encrypt","decrypt"],
+  "keywords": [
+    "demo",
+    "criptic",
+    "encrypt",
+    "decrypt"
+  ],
   "dependencies": {
     "crypto": "^1.0.1"
   }
